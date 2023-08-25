@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300;400;500;700;800&display=swap');
+
+:root{
+--themecolor: #182b3a linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.side-menu{
+    position: fixed;
+    background: var(--themecolor);
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
